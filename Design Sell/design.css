@@ -1,0 +1,18 @@
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial;
+}
+
+.paragraph{
+    background-color: aqua;
+    color: red;
+    margin-left: 15px;
+}
+
+.division{
+      margin: 30px ;
+      padding-top: 45px;
+      width: 100%;
+      border: 20px solid blue;
+}
