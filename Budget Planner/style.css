@@ -1,0 +1,12 @@
+label {
+    width:180px;
+    padding-right: 15px;
+    float: left;
+}
+ body{
+     text-align: center;
+ }
+ form{
+     display: inline-block;
+ }
+
