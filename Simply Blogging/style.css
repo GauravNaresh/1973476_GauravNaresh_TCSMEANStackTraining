@@ -1,0 +1,16 @@
+h3{
+    text-align: center;
+    color: red;
+}
+
+img{
+    margin: auto;
+    display: block;
+    padding-top: 25px;
+    width: 25%;
+
+}
+#color, #col{
+    background-color: aqua;
+
+}

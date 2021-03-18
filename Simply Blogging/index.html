@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Blogging</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src = "blogging.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+<body>
+    <h3 id ="col"> Simply Blogging</h3>
+    <ul class="nav justify-content-end" id = "color">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About US</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+      </ul>
+      <hr />
+      <div class ="container-fluid">
+          <form class="form-group">
+            <div class="row">
+                <div class="col-2">
+                    <label>Title: </label>
+                </div>
+                <div class="col-5">
+                    <input type="text" name="sport" id="sport" class="form-control"><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <label>Description: </label>
+                </div>
+                <div class="col-5">
+                    <textarea name="desc" id="desc" cols="20" rows="5" class="form-control"></textarea><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <label>Image (optional): </label>
+                </div>
+                <div class="col-5">
+                    <input type="file" name="image" id="image" class="form-control"><br>
+                </div>
+            </div>
+           
+          </form>
+          <input type = "button" value ="AddBlog" class="btn btn-primary" onclick="addBlog()" />
+      </div>
+      <div id = "division" class = "container">
+
+
+
+      </div>
+     
+</body>
+</html>
