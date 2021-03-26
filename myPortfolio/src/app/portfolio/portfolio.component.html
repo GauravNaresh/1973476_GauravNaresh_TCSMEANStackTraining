@@ -1,0 +1,47 @@
+<h2>Welcome, {{fname}}</h2>
+
+<div class="row justify-content-center">
+
+    <form [formGroup]="contactRef" (ngSubmit)="submitContact()">
+        <div class="row justify-content-center">
+            <div class="col-4 mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" formControlName="name" class="form-control"/><br />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 mb-3">
+                <label class="form-label">Contact Number</label>
+                <input type="number" formControlName="number" class="form-control"/><br />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col mb-3">
+                <input type="submit" value="Add" class="btn btn-primary">
+                <input type="reset" value="Clear" (click) = "clearContacts()"  class="btn btn-danger">
+            
+            </div>
+        </div>
+    </form>
+</div>
+<div>
+    <table class='table'>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let row of rows">
+                <td>
+                    {{row.name}}
+                </td>
+                <td>
+                    {{row.number}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

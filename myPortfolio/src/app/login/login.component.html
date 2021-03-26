@@ -1,0 +1,29 @@
+<div class="row justify-content-center">
+    <li>
+    <a routerLink="/signup" class="nav-link">Signup</a>
+    </li>
+    <br />
+    <form [formGroup]="loginRef" (ngSubmit)="checkUser()">
+        <div class="row justify-content-center">
+            <div class="col-4 mb-3">
+                <label class="form-label">Username</label>
+                <input type="text" formControlName="user" class="form-control"/><br />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" formControlName="pass" class="form-control"/><br />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col mb-3">
+                <input type="submit" value="Login" class="btn btn-primary">
+                <input type="reset" value="Clear" class="btn btn-danger">
+            
+            </div>
+        </div>
+    </form>
+    {{msg}}
+</div>
+
