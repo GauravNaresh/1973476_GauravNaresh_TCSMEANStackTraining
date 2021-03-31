@@ -1,0 +1,196 @@
+[
+    {
+        "question": "1. 1+1?",
+        "choices": [{
+            "answer": "9",
+            "Correct": "false"
+        },
+        {
+            "answer": "6",
+            "Correct": "false"  
+        },
+        {
+            "answer": "2",
+            "Correct": "true"  
+        },
+        {
+            "answer": "3",
+            "Correct": "false"  
+        }]
+    },
+
+    {
+        "question": "2. 10+23?",
+        "choices": [{
+            "answer": "9",
+            "Correct": "false"
+        },
+        {
+            "answer": "16",
+            "Correct": "false"  
+        },
+        {
+            "answer": "22",
+            "Correct": "false"  
+        },
+        {
+            "answer": "33",
+            "Correct": "true"  
+        }]
+    },
+
+    {
+        "question": "3. 5*4?",
+        "choices": [{
+            "answer": "19",
+            "Correct": "false"
+        },
+        {
+            "answer": "20",
+            "Correct": "true"  
+        },
+        {
+            "answer": "21",
+            "Correct": "false"  
+        },
+        {
+            "answer": "31",
+            "Correct": "false"  
+        }]
+    },
+
+    {
+        "question": "4. 3*3?",
+        "choices": [{
+            "answer": "9",
+            "Correct": "true"
+        },
+        {
+            "answer": "6",
+            "Correct": "false"  
+        },
+        {
+            "answer": "72",
+            "Correct": "false"  
+        },
+        {
+            "answer": "39",
+            "Correct": "false"  
+        }]
+    },
+    {
+        "question": "5. 12*12?",
+        "choices": [{
+            "answer": "190",
+            "Correct": "false"
+        },
+        {
+            "answer": "144",
+            "Correct": "true"  
+        },
+        {
+            "answer": "24",
+            "Correct": "false"  
+        },
+        {
+            "answer": "98",
+            "Correct": "false"  
+        }]
+    },
+    {
+        "question": "6. 123+45?",
+        "choices": [{
+            "answer": "168",
+            "Correct": "true"
+        },
+        {
+            "answer": "178",
+            "Correct": "false"  
+        },
+        {
+            "answer": "188",
+            "Correct": "false"  
+        },
+        {
+            "answer": "145",
+            "Correct": "false"  
+        }]
+    },
+    {
+        "question": "7. 12-4?",
+        "choices": [{
+            "answer": "9",
+            "Correct": "false"
+        },
+        {
+            "answer": "8",
+            "Correct": "true"  
+        },
+        {
+            "answer": "7",
+            "Correct": "false"  
+        },
+        {
+            "answer": "6",
+            "Correct": "false"  
+        }]
+    },
+    {
+        "question": "8. 13*10?",
+        "choices": [{
+            "answer": "13",
+            "Correct": "false"
+        },
+        {
+            "answer": "10",
+            "Correct": "false"  
+        },
+        {
+            "answer": "1300",
+            "Correct": "false"  
+        },
+        {
+            "answer": "130",
+            "Correct": "true"  
+        }]
+    },
+    {
+        "question": "9. 101-2-3?",
+        "choices": [{
+            "answer": "99",
+            "Correct": "false"
+        },
+        {
+            "answer": "69",
+            "Correct": "false"  
+        },
+        {
+            "answer": "102",
+            "Correct": "false"  
+        },
+        {
+            "answer": "96",
+            "Correct": "true"  
+        }]
+    },
+    {
+        "question": "10. 0*113?",
+        "choices": [{
+            "answer": "0",
+            "Correct": "true"
+        },
+        {
+            "answer": "113",
+            "Correct": "false"  
+        },
+        {
+            "answer": "223",
+            "Correct": "false"  
+        },
+        {
+            "answer": "39",
+            "Correct": "false"  
+        }]
+    }
+
+]
